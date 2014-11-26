@@ -1,0 +1,56 @@
+body {
+  background: url('../background_tiled.png');
+  margin-top: 10%;
+}
+
+#title {
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  color: silver;
+  text-align: center;
+  text-shadow: 8px 8px 8px #000;
+}
+
+.band-wrapper {
+  padding: 5%;
+  border-bottom: 1px solid rgba(137,137,137,0.3);
+}
+
+#leaderboard {
+  background: rgba(30,30,30,0.8);
+  border: 3px solid white;
+  border-radius: 20px;
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+.band-name {
+  width: 42.5%;
+  float: left;
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  font-size: 1em;
+/*  border-bottom: 1px solid white;*/
+}
+
+.band-score {
+  width: 55%;
+  float: left;
+  text-align: right;
+  font-family: 'Arial', sans-serif;
+  color: red;
+  font-size: 1em;
+}
+
+.mentions {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.8em;
+  color: white;
+}
+
+.last-band {
+  padding: 5%;
+}
